@@ -36,11 +36,6 @@ body {
   color: #181818;
 }
 
-.view__all__button {
-  display: flex;
-  text-decoration: none;
-}
-
 button {
   width: 9em;
   border-radius: 0 25px 25px 25px;
@@ -145,4 +140,13 @@ button:hover {
   font-size: 1.8rem;
   font-weight: 700;
   color: rgb(238, 234, 234);
+}
+
+@media (max-width: 800px) {
+  .gallery__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
 }
