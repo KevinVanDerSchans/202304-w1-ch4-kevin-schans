@@ -18,7 +18,7 @@
     "url": "https://github.com/KevinVanDerSchans/202304-w1-ch4-kevin-schans/issues"
   },
   "homepage": "https://github.com/KevinVanDerSchans/202304-w1-ch4-kevin-schans#readme",
-  "dependencies": {
+  "devDependencies": {
     "sass": "^1.62.1"
   }
 }
